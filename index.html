@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>畢委會</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <style>
+        .header {
+            padding: 30px 0;
+            /* height: 150px; */
+            background-color: #1E90FF;
+            margin-bottom: 30px;
+        }
+
+        .bar {
+            font-size: 60px;
+            color: #080808;
+        }
+
+        /* swiper */
+        .swiper{
+            margin-bottom: 30px;
+        }
+
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        .text {
+            font-size: 28px;
+            line-height: 30px;
+            color: #080808;
+            text-align: center;
+            margin: 5px 0 30px 0;
+        }
+        .footer{
+            height: 300px;
+            background-color: #cccccc;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <div class="bar">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+                <div class="col-6 offset-2">
+                    <img class="img-fluid" src="img/LOGO.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-10 swiper">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="img/index/01.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="img/index/02.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="img/index/03.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="img/index/04.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="img/index/05.jpg" alt="">
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="col-10">
+                <img class="img-fluid" src="img/index/dance.png" alt="">
+                <div class="text">
+                    <p>留戀足跡</p>
+                </div>
+            </div>
+            <div class="col-10">
+                <img class="img-fluid" src="img/index/music.jpg" alt="">
+                <div class="text">
+                    <p>黃金雨音樂節</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-3">
+
+                    </div>
+                    <div class="col-2">
+
+                    </div>
+                    <div class="col-3">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: {
+                el: '.swiper-pagination',
+                dynamicBullets: true,
+            },
+            autoplay: {
+                delay: 5000,
+            },
+            loop: true,
+        });
+    </script>
+</body>
+
+</html>
