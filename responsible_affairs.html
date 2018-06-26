@@ -7,49 +7,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>畢委會</title>
     <link rel="icon" href="/img/ico.ico">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
         crossorigin="anonymous">
-        <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.css">
 
     <style>
-        /* swiper */
-
-        .swiper {
+        .block {
             margin-bottom: 30px;
         }
 
-        .swiper-container {
-            width: 100%;
-            height: 100%;
-        }
-
-        .swiper-slide {
-            text-align: center;
-            font-size: 18px;
-            background: #fff;
-            /* Center slide text vertically */
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: -webkit-flex;
-            display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            -webkit-justify-content: center;
-            justify-content: center;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            -webkit-align-items: center;
-            align-items: center;
-        }
-
-        .text {
-            font-size: 20px;
+        .title {
+            font-size: 24px;
             line-height: 30px;
-            color: #080808;
+            margin-bottom: 10px;
             text-align: center;
-            margin: 5px 0 30px 0;
+        }
+
+        .content_text {
+            font-size: 16px;
+        }
+
+        .content_text span {
+            font-size: 20px;
         }
     </style>
 </head>
@@ -71,61 +54,61 @@
                         <ul class="menu-bottom">
                             <li>
                                 <div class="plus">
-                                    <a class="" href="member.html">畢委會介紹</a>
+                                    <a class="" href="">畢委會介紹</a>
                                 </div>
                                 <ul class="menu-bottom-sec" id="solution-content">
                                     <li>
                                         <div>
-                                            <a href="/chairman.html">會長、副會長</a>
+                                            <a href="">會長、副會長</a>
                                         </div>
                                     </li>
                                     <li>
                                         <div>
-                                            <a href="/instruments.html">文書</a>
+                                            <a href="">文書</a>
                                         </div>
                                     </li>
                                     <li>
                                         <div>
-                                            <a href="/general_affairs.html">總務、公關</a>
+                                            <a href="">總務、公關</a>
                                         </div>
                                     </li>
                                     <li>
                                         <div>
-                                            <a href="editor.html">編輯</a>
+                                            <a href="">編輯</a>
                                         </div>
                                     </li>
                                     <li>
                                         <div>
-                                            <a href="activity.html">活動</a>
+                                            <a href="">活動</a>
                                         </div>
                                     </li>
                                     <li>
                                         <div>
-                                            <a href="college_representative.html">學院代表</a>
+                                            <a href="">學院代表</a>
                                         </div>
                                     </li>
                                 </ul>
                             </li>
                             <li>
                                 <div class="plus">
-                                    <a class="" href="activity_description.html">活動介紹</a>
+                                    <a class="" href="">活動介紹</a>
                                 </div>
                                 <ul class="menu-bottom-sec" id="solution-content">
                                     <li>
                                         <div>
-                                            <a href="dance.html">畢業舞會</a>
+                                            <a href="">畢業舞會</a>
                                         </div>
                                     </li>
                                     <li>
                                         <div>
-                                            <a href="music.html">黃金雨音樂會</a>
+                                            <a href="">黃金雨音樂會</a>
                                         </div>
                                     </li>
                                 </ul>
                             </li>
                             <li class="menu-arrow menu-fst">
                                 <div class="plus">
-                                    <a href="responsible_affairs.html">
+                                    <a href="/product_all_kind">
                                         負責事務
                                     </a>
                                 </div>
@@ -181,44 +164,36 @@
 
         <main id="main_content">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 swiper">
-                        <div class="swiper-container">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <img class="img-fluid" src="img/index/01.jpg" alt="">
+                <div class="row">
+                    <div class="col-6">
+                        <a href="chairman.html">
+                            <div class="block">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img class="img-fluid" src="img/responsible affairs/1-1.png" alt="" style="margin-bottom: 15px;">
+                                    </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <img class="img-fluid" src="img/index/02.jpg" alt="">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img class="img-fluid" src="img/index/03.jpg" alt="">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img class="img-fluid" src="img/index/04.jpg" alt="">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img class="img-fluid" src="img/index/05.jpg" alt="">
+                                <div class="title">
+                                    學士袍租賃
                                 </div>
                             </div>
-                            <!-- Add Pagination -->
-                            <div class="swiper-pagination"></div>
-                        </div>
+                        </a>
                     </div>
-                    <div class="col-12">
-                        <img class="img-fluid" src="img/index/dance.png" alt="">
-                        <div class="text">
-                            <p>留戀·足跡</p>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <img class="img-fluid" src="img/index/music.jpg" alt="">
-                        <div class="text">
-                            <p>黃金雨音樂節</p>
-                        </div>
+                    <div class="col-6">
+                        <a href="chairman.html">
+                            <div class="block">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img class="img-fluid" src="img/responsible affairs/2-1.png" alt="" style="margin-bottom: 15px;">
+                                    </div>
+                                </div>
+                                <div class="title">
+                                    畢冊相關事務
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
-            </div>
         </main>
 
         <div class="footer">
@@ -244,98 +219,98 @@
         <div class="copyright p-0 p-sm-2">Copyright&nbsp;©&nbsp;ＣhinAn&nbsp;All&nbsp;Rights&nbsp;Reserved.
             <div class="w-100 d-block d-sm-none"></div>
         </div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.js"></script>
-    <script>
-        $("#nav_li_item_1").hover(function () {
-            $(this).toggleClass("active");
-        });
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.js"></script>
+        <script>
+            $("#nav_li_item_1").hover(function () {
+                $(this).toggleClass("active");
+            });
 
-        $("#nav_li_item_2").hover(function () {
-            $(this).toggleClass("active");
-        });
-        $("#nav_li_item_3").hover(function () {
-            $(this).toggleClass("active");
-        });
-        $("#nav_li_item_4").hover(function () {
-            $(this).toggleClass("active");
-        });
-        $("#nav_li_item_5").hover(function () {
-            $(this).toggleClass("active");
-        });
-        $("#nav_li_item_6").hover(function () {
-            $(this).toggleClass("active");
-        });
+            $("#nav_li_item_2").hover(function () {
+                $(this).toggleClass("active");
+            });
+            $("#nav_li_item_3").hover(function () {
+                $(this).toggleClass("active");
+            });
+            $("#nav_li_item_4").hover(function () {
+                $(this).toggleClass("active");
+            });
+            $("#nav_li_item_5").hover(function () {
+                $(this).toggleClass("active");
+            });
+            $("#nav_li_item_6").hover(function () {
+                $(this).toggleClass("active");
+            });
 
-        $(window).scroll(function () {
-            var scrollTop = $(window).scrollTop();
+            $(window).scroll(function () {
+                var scrollTop = $(window).scrollTop();
 
-            if (scrollTop > 150) {
-                $("#app").addClass("fixed");
-                $("#main_nav").addClass("fixed");
-            } else {
-                $("#app").addClass("fixed");
-                $("#main_nav").removeClass("fixed");
-            }
-        });
-    </script>
-    <script>
-        $(".search_icon").click(function () {
-            $(".search").toggleClass("active");
-        })
-    </script>
-    <script>
-        $(".collapse-toggle").click(function () {
-            $(".menu-wrap").toggleClass("active");
-            $(".menu-wrap-bg").toggle();
-            $("body").toggleClass("lock");
-        });
+                if (scrollTop > 150) {
+                    $("#app").addClass("fixed");
+                    $("#main_nav").addClass("fixed");
+                } else {
+                    $("#app").addClass("fixed");
+                    $("#main_nav").removeClass("fixed");
+                }
+            });
+        </script>
+        <script>
+            $(".search_icon").click(function () {
+                $(".search").toggleClass("active");
+            })
+        </script>
+        <script>
+            $(".collapse-toggle").click(function () {
+                $(".menu-wrap").toggleClass("active");
+                $(".menu-wrap-bg").toggle();
+                $("body").toggleClass("lock");
+            });
 
-        $(".menu-wrap-bg").click(function () {
-            $(".menu-wrap").removeClass("active");
-            $(".menu-wrap-bg").hide();
-            $("body").removeClass("lock");
-        });
-    </script>
-    <!--子層出現-->
-    <script>
-        //li滑動
-        $(".menu-bottom > li > div").click(function () {
-            if ($(this).hasClass("active")) {
-                $(this).parent().find(".menu-bottom-sec").slideToggle(600);
-                $(this).removeClass("active");
-            }
-            else {
-                $(".menu-bottom > li > div").removeClass("active");
-                $(".menu-bottom-sec > li > div").removeClass("active");
-                $(".menu-bottom-sec").slideUp(600);
-                $(".menu_b").slideUp(600);
-                $(this).addClass("active");
-                $(this).parent().find(".menu-bottom-sec").slideToggle(600);
-            }
-        });
-        $(".menu-bottom-sec > li > div").click(function () {
-            $(this).toggleClass("active");
-            $(this).parent().find(".menu_b").slideToggle(600);
-        });
-    </script>
-    <script>
-        var swiper = new Swiper('.swiper-container', {
-            pagination: {
-                el: '.swiper-pagination',
-                dynamicBullets: true,
-            },
-            autoplay: {
-                delay: 3000,
-            },
-            loop: true,
-        });
-    </script>
+            $(".menu-wrap-bg").click(function () {
+                $(".menu-wrap").removeClass("active");
+                $(".menu-wrap-bg").hide();
+                $("body").removeClass("lock");
+            });
+        </script>
+        <!--子層出現-->
+        <script>
+            //li滑動
+            $(".menu-bottom > li > div").click(function () {
+                if ($(this).hasClass("active")) {
+                    $(this).parent().find(".menu-bottom-sec").slideToggle(600);
+                    $(this).removeClass("active");
+                }
+                else {
+                    $(".menu-bottom > li > div").removeClass("active");
+                    $(".menu-bottom-sec > li > div").removeClass("active");
+                    $(".menu-bottom-sec").slideUp(600);
+                    $(".menu_b").slideUp(600);
+                    $(this).addClass("active");
+                    $(this).parent().find(".menu-bottom-sec").slideToggle(600);
+                }
+            });
+            $(".menu-bottom-sec > li > div").click(function () {
+                $(this).toggleClass("active");
+                $(this).parent().find(".menu_b").slideToggle(600);
+            });
+        </script>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                pagination: {
+                    el: '.swiper-pagination',
+                    dynamicBullets: true,
+                },
+                autoplay: {
+                    delay: 3000,
+                },
+                loop: true,
+            });
+        </script>
 
 </body>
 
